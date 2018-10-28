@@ -16,3 +16,12 @@ Agile Rails 5.2.1,
    git commit -m "message"
    git push heroku master
    heroku open
+8. heroku addons
+heroku-postgresql (postgresql-lively-22683)  hobby-dev  free   created
+ └─ as DATABASE
+ 9. heroku config
+  DATABASE_URL:             postgres://ozfmbwvvlwpdju:46c4f98d68d6eda81af2fd0b1ffc20e2ed4b63896e1909bdad29052bf6ab3f1b@ec2-23-23-80-20.compute-1.amazonaws.com:5432/df6d3luug94ugn
+ 10. heroku ps:scale web=1
+ 11.
+
+
