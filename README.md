@@ -12,4 +12,7 @@ Agile Rails 5.2.1,
     web: bundle exec puma -C config/puma.rb
 5. rails g scaffold Product title:string description:text image_url:string price:decimal
 6. rails db:migrate
-
+7. git add .
+   git commit -m "message"
+   git push heroku master
+   heroku open
