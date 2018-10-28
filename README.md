@@ -22,6 +22,6 @@ heroku-postgresql (postgresql-lively-22683)  hobby-dev  free   created
  9. heroku config
   DATABASE_URL:             postgres://ozfmbwvvlwpdju:46c4f98d68d6eda81af2fd0b1ffc20e2ed4b63896e1909bdad29052bf6ab3f1b@ec2-23-23-80-20.compute-1.amazonaws.com:5432/df6d3luug94ugn
  10. heroku ps:scale web=1
- 11.
+ 11.heroku run rake db:migrate
 
 
