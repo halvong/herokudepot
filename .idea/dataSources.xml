@@ -9,14 +9,6 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1:5432/herokudepot_prod</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="Rails herokudepot" uuid="a0ddd8e4-c3f1-4f05-ac70-a70cc52b3167">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <imported>true</imported>
-      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/herokudepot</jdbc-url>
-    </data-source>
     <data-source source="LOCAL" name="Rails herokudepot: development" uuid="e4a08b57-e4f0-412b-aa10-1569de75953d">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
