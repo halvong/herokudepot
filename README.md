@@ -3,6 +3,11 @@ Agile Rails 5.2.1,
 
 #database
 sudo systemctl start postgresql
+
+#Step-by-step
+1. rails db:seed
+
+
 #Heroku
 1.  git init
     git add .
@@ -20,7 +25,7 @@ sudo systemctl start postgresql
    git commit -m "message"
    git push heroku master
    heroku open
-   heroku run rake db:migrate
+   heroku run rake db:migrate (optional)
 9. heroku addons
     heroku-postgresql (postgresql-lively-22683)  hobby-dev  free   created
      └─ as DATABASE
