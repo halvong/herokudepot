@@ -13,5 +13,10 @@
       <user-name>tom</user-name>
       <introspection-schemas>@:@</introspection-schemas>
     </data-source>
+    <data-source name="Rails herokudepot: development" uuid="e4a08b57-e4f0-412b-aa10-1569de75953d">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="POSTGRES" exact-version="0.0" />
+      <first-sync>true</first-sync>
+      <user-name>tom</user-name>
+    </data-source>
   </component>
 </project>
