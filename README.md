@@ -6,6 +6,9 @@ sudo systemctl start postgresql
 
 #Step-by-step
 1. rails db:seed
+2. heroku run rails db:seed
+3.
+
 
 
 #Heroku
