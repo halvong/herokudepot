@@ -11,6 +11,8 @@ heroku logs --tail
 1. rails db:seed
 2. heroku run rails db:seed
 3. rails g controller Store index
+4. heroku run rails dev:cache
+
 
 
 
