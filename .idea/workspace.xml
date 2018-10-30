@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10a71f28-3af5-4f5b-b6f7-3cf68b455e1c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/store.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/store.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/store/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/store/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
     </list>
     <ignored path=".idea/dataSources/" />
     <ignored path=".idea/dataSources/a59d8365-04a7-4ef7-b7ec-15fa6c447442/storage_v2/_src_/database/" />
@@ -51,7 +57,7 @@
           <entry key="gitignore" value="3" />
           <entry key="json" value="1" />
           <entry key="log" value="1" />
-          <entry key="md" value="7" />
+          <entry key="md" value="6" />
           <entry key="products" value="1" />
           <entry key="rb" value="15" />
           <entry key="scss" value="4" />
@@ -65,7 +71,7 @@
         <counts>
           <entry key="Database Element" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="Markdown" value="7" />
+          <entry key="Markdown" value="6" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="RHTML" value="9" />
           <entry key="Ruby" value="16" />
@@ -81,18 +87,18 @@
           <entry key="Procfile" value="4" />
           <entry key="erb" value="747" />
           <entry key="gitignore" value="58" />
-          <entry key="md" value="1155" />
+          <entry key="md" value="1116" />
           <entry key="rb" value="420" />
           <entry key="scss" value="28" />
           <entry key="sql" value="40" />
-          <entry key="txt" value="164" />
+          <entry key="txt" value="140" />
           <entry key="yml" value="448" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1155" />
-          <entry key="PLAIN_TEXT" value="226" />
+          <entry key="Markdown" value="1116" />
+          <entry key="PLAIN_TEXT" value="202" />
           <entry key="RHTML" value="747" />
           <entry key="Ruby" value="420" />
           <entry key="SCSS" value="28" />
@@ -102,7 +108,7 @@
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.local" value="2" />
+          <entry key="git.branch.checkout.local" value="1" />
           <entry key="git.branch.create.new" value="1" />
         </counts>
       </usages-collector>
@@ -358,7 +364,7 @@
       <workItem from="1540782738040" duration="2090000" />
       <workItem from="1540784840640" duration="5669000" />
       <workItem from="1540791331085" duration="865000" />
-      <workItem from="1540860411825" duration="5029000" />
+      <workItem from="1540860411825" duration="4773000" />
     </task>
     <task id="LOCAL-00001" summary="add rows &amp; cols on product form">
       <created>1540784581827</created>
@@ -395,18 +401,11 @@
       <option name="project" value="LOCAL" />
       <updated>1540865120422</updated>
     </task>
-    <task id="LOCAL-00006" summary="going chp9.">
-      <created>1540866845445</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1540866845445</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18559000" />
+    <option name="totallyTimeSpent" value="18303000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -432,9 +431,9 @@
       <window_info anchor="bottom" id="TODO" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" sideWeight="0.49946582" weight="0.32916668" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.4957265" visible="true" weight="0.32777777" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.7548077" weight="0.30555555" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50427353" side_tool="true" visible="true" weight="0.32777777" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.49626067" visible="true" weight="0.32777777" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.7553419" weight="0.30555555" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5037393" side_tool="true" visible="true" weight="0.32777777" />
       <window_info anchor="bottom" id="Database Console" order="12" sideWeight="0.7147436" weight="0.32916668" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -450,13 +449,11 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="add rows &amp; cols on product form" />
     <MESSAGE value="add logo and images" />
     <MESSAGE value="Product css" />
     <MESSAGE value="Store page" />
-    <MESSAGE value="going chp9." />
-    <option name="LAST_COMMIT_MESSAGE" value="going chp9." />
+    <option name="LAST_COMMIT_MESSAGE" value="Store page" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Gemfile">
@@ -620,8 +617,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="373">
-            <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <first_editor relative-caret-position="54">
+            <caret line="2" selection-start-line="2" selection-end-line="2" />
           </first_editor>
           <second_editor />
         </state>

@@ -1,13 +1,18 @@
 Agile Rails 5.2.1, 
-10/28/2018, Sun
+10/29/2018, Mon
+chp9, p122 
 
 #database
 sudo systemctl start postgresql
+#misc
+heroku logs --tail
 
 #Step-by-step
 1. rails db:seed
 2. heroku run rails db:seed
-3.
+3. rails g controller Store index
+4. heroku run rails dev:cache
+
 
 
 

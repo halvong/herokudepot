@@ -7,7 +7,11 @@
       <imported>true</imported>
       <remarks>$PROJECT_DIR$/config/database.yml</remarks>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/herokudepot_prod</jdbc-url>
+      <jdbc-url>jdbc:postgresql://ec2-23-23-80-20.compute-1.amazonaws.com:5432/df6d3luug94ugn</jdbc-url>
+      <driver-properties>
+        <property name="ssl" value="true" />
+        <property name="sslfactory" value="org.postgresql.ssl.NonValidatingFactory" />
+      </driver-properties>
     </data-source>
     <data-source source="LOCAL" name="Rails herokudepot: development" uuid="e4a08b57-e4f0-412b-aa10-1569de75953d">
       <driver-ref>postgresql</driver-ref>
