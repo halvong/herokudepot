@@ -12,6 +12,9 @@ heroku logs --tail
 2. heroku run rails db:seed
 3. rails g controller Store index
 4. heroku run rails dev:cache
+5. rails g scaffold Cart
+7. rails db:migrate
+8. rails generate scaffold LineItem product:references cart:belongs_to
 
 
 
