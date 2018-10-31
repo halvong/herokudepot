@@ -15,7 +15,7 @@ heroku logs --tail
 5. rails g scaffold Cart
 7. rails db:migrate
 8. rails generate scaffold LineItem product:references cart:belongs_to
-
+9  git push heroku master
 
 
 
