@@ -31,7 +31,7 @@ heroku logs --tail
     web: bundle exec puma -C config/puma.rb
 5. rails g scaffold Product title:string description:text image_url:string price:decimal
 6. rails db:migrate
-7. heroku run rake db:migrate
+7. heroku run rails db:migrate
 8. git add .
    git commit -m "message"
    git push heroku master
