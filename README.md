@@ -12,7 +12,10 @@ heroku logs --tail
 2. heroku run rails db:seed
 3. rails g controller Store index
 4. heroku run rails dev:cache
-
+5. rails g scaffold Cart
+7. rails db:migrate
+8. rails generate scaffold LineItem product:references cart:belongs_to
+9  git push heroku master
 
 
 
@@ -28,7 +31,7 @@ heroku logs --tail
     web: bundle exec puma -C config/puma.rb
 5. rails g scaffold Product title:string description:text image_url:string price:decimal
 6. rails db:migrate
-7. heroku run rake db:migrate
+7. heroku run rails db:migrate
 8. git add .
    git commit -m "message"
    git push heroku master
