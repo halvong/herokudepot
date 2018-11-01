@@ -15,8 +15,12 @@ heroku logs --tail
 5. rails g scaffold Cart
 7. rails db:migrate
 8. rails generate scaffold LineItem product:references cart:belongs_to
-9  git push heroku master
-
+9.  git push heroku master
+10. rails generate migration add_quantity_to_line_items quantity:integer
+11. rails db:migrate
+12. rails generate migration combine_items_in_cart
+13. rails db:migrate - p135
+14. rails db:migrate:status  - p138
 
 
 #Heroku
