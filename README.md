@@ -1,6 +1,6 @@
 Agile Rails 5.2.1, 
-10/29/2018, Mon
-chp9, p122 
+10/31/2018, Wed
+p152 
 
 #database
 sudo systemctl start postgresql
