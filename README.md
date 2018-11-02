@@ -1,6 +1,6 @@
 Agile Rails 5.2.1, 
 11/01/2018, Thurs
-p170 
+p175 
 
 #database
 sudo systemctl start postgresql
@@ -21,6 +21,7 @@ heroku logs --tail
 12. rails generate migration combine_items_in_cart
 13. rails db:migrate - p135
 14. rails db:migrate:status  - p138
+15. rails g channel products
 
 
 #Heroku
