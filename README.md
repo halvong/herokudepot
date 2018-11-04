@@ -26,6 +26,9 @@ heroku logs --tail
 17. rails generate migration add_order_to_line_item order:references, p175
 18. rails db:migrate, heroku run rails db:migrate
 19. rails dbconsole, p188
+20. curl --silent http://localhost:5000/products/3/who_bought.atom
+    curl --silent https://immense-lowlands-87233.herokuapp.com/products/3/who_bought.atom
+
 
 #Heroku
 1.  git init
