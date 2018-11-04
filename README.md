@@ -25,6 +25,7 @@ heroku logs --tail
 16. rails generate scaffold Order name address:text email pay_type:integer
 17. rails generate migration add_order_to_line_item order:references, p175
 18. rails db:migrate, heroku run rails db:migrate
+19. rails dbconsole, p188
 
 #Heroku
 1.  git init
