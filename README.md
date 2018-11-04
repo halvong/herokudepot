@@ -1,6 +1,6 @@
 Agile Rails 5.2.1, 
-11/01/2018, Thurs
-p175 
+11/03/2018, Sat
+p199 
 
 #database
 sudo systemctl start postgresql
@@ -27,9 +27,12 @@ heroku logs --tail
 18. rails db:migrate, heroku run rails db:migrate
 19. rails dbconsole, p188
 20. curl --silent http://localhost:5000/products/3/who_bought.atom
-    curl --silent https://immense-lowlands-87233.herokuapp.com/products/3/who_bought.atom
-
-
+    curl --silent https://immense-lowlands-87233.herokuapp.com/products/5/who_bought.atom
+21. gem 'webpacker', '~> 3.0'
+    bundle install
+    rails webpacker:install
+    rails webpacker:install:react
+    
 #Heroku
 1.  git init
     git add .
