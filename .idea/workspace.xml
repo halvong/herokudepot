@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10a71f28-3af5-4f5b-b6f7-3cf68b455e1c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/herokudepot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/herokudepot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/PayTypeSelector/CheckPayType.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/PayTypeSelector/CreditCardPayType.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/PayTypeSelector/NoPayType.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/PayTypeSelector/PurchaseOrderPayType.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/orders/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/orders/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/orders/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/orders/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/orders_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/orders_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/PayTypeSelector/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/PayTypeSelector/index.jsx" afterDir="false" />
     </list>
     <ignored path=".idea/dataSources/" />
     <ignored path=".idea/dataSources/a59d8365-04a7-4ef7-b7ec-15fa6c447442/storage_v2/_src_/database/" />
@@ -143,11 +144,11 @@
           <entry key="gitignore" value="4" />
           <entry key="html" value="2" />
           <entry key="json" value="1" />
-          <entry key="jsx" value="2" />
+          <entry key="jsx" value="6" />
           <entry key="log" value="3" />
           <entry key="md" value="14" />
           <entry key="products" value="1" />
-          <entry key="rb" value="52" />
+          <entry key="rb" value="53" />
           <entry key="ruby-version" value="1" />
           <entry key="scss" value="10" />
           <entry key="sql" value="7" />
@@ -163,12 +164,12 @@
           <entry key="Database Element" value="1" />
           <entry key="HTML" value="2" />
           <entry key="JSON" value="1" />
-          <entry key="JSX Harmony" value="2" />
+          <entry key="JSX Harmony" value="6" />
           <entry key="Markdown" value="14" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="RHTML" value="29" />
           <entry key="RXML" value="1" />
-          <entry key="Ruby" value="55" />
+          <entry key="Ruby" value="56" />
           <entry key="SCSS" value="10" />
           <entry key="SVG" value="1" />
           <entry key="Scratch" value="7" />
@@ -184,13 +185,13 @@
           <entry key="erb" value="1585" />
           <entry key="gitignore" value="77" />
           <entry key="html" value="58" />
-          <entry key="jsx" value="117" />
+          <entry key="jsx" value="398" />
           <entry key="log" value="136" />
           <entry key="md" value="2422" />
-          <entry key="rb" value="1612" />
+          <entry key="rb" value="1698" />
           <entry key="scss" value="33" />
           <entry key="sql" value="119" />
-          <entry key="txt" value="404" />
+          <entry key="txt" value="449" />
           <entry key="yml" value="448" />
         </counts>
       </usages-collector>
@@ -198,12 +199,12 @@
         <counts>
           <entry key="CoffeeScript" value="39" />
           <entry key="HTML" value="58" />
-          <entry key="JSX Harmony" value="117" />
+          <entry key="JSX Harmony" value="398" />
           <entry key="Log" value="74" />
           <entry key="Markdown" value="2422" />
-          <entry key="PLAIN_TEXT" value="547" />
+          <entry key="PLAIN_TEXT" value="592" />
           <entry key="RHTML" value="1585" />
-          <entry key="Ruby" value="1619" />
+          <entry key="Ruby" value="1705" />
           <entry key="SCSS" value="33" />
           <entry key="Scratch" value="119" />
           <entry key="YAML" value="448" />
@@ -234,17 +235,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/javascript/packs/pay_type.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="216">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/javascript/PayTypeSelector/CheckPayType.jsx">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/javascript/PayTypeSelector/index.jsx">
+        <entry file="file://$PROJECT_DIR$/app/controllers/orders_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            <state relative-caret-position="404">
+              <caret line="101" column="4" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -262,7 +268,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/orders/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -340,6 +346,7 @@
         <option value="$PROJECT_DIR$/app/views/orders/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/orders/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/javascript/PayTypeSelector/index.jsx" />
+        <option value="$PROJECT_DIR$/app/controllers/orders_controller.rb" />
       </list>
     </option>
   </component>
@@ -417,14 +424,7 @@
               <item name="herokudepot" type="b2602c69:ProjectViewProjectNode" />
               <item name="herokudepot" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="herokudepot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="herokudepot" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="orders" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -445,11 +445,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/javascript/PayTypeSelector" />
       <recent name="$PROJECT_DIR$/app/javascript" />
       <recent name="$PROJECT_DIR$/app/javascript/packs" />
       <recent name="$PROJECT_DIR$/config" />
       <recent name="$PROJECT_DIR$/app/models" />
-      <recent name="$PROJECT_DIR$/app/views/products" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -624,7 +624,7 @@
       <workItem from="1541638567589" duration="13000" />
       <workItem from="1541638782918" duration="8000" />
       <workItem from="1541638848150" duration="348000" />
-      <workItem from="1541641524536" duration="1675000" />
+      <workItem from="1541641524536" duration="2858000" />
     </task>
     <task id="LOCAL-00001" summary="add rows &amp; cols on product form">
       <created>1540784581827</created>
@@ -745,11 +745,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541306955286</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="react js added to paytype">
+      <created>1541643376677</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1541643376677</updated>
+    </task>
+    <task id="LOCAL-00019" summary="modified index.jsx">
+      <created>1541643752860</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1541643752860</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41113000" />
+    <option name="totallyTimeSpent" value="42296000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -762,7 +776,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1920" height="863" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18482906" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -776,11 +789,11 @@
       <window_info anchor="bottom" id="TODO" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" sideWeight="0.49786323" weight="0.32916668" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.6287393" weight="0.28194445" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.24252136" side_tool="true" visible="true" weight="0.24305555" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.62713677" visible="true" weight="0.28194445" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.37286323" side_tool="true" visible="true" weight="0.28194445" />
       <window_info anchor="bottom" id="Database Console" order="11" sideWeight="0.713141" weight="0.32916668" />
       <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="13" sideWeight="0.75747865" visible="true" weight="0.24305555" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.75641024" weight="0.24305555" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -837,23 +850,11 @@
     <MESSAGE value="modifed order page" />
     <MESSAGE value="add atom feeder" />
     <MESSAGE value="add react js and webpack" />
-    <option name="LAST_COMMIT_MESSAGE" value="add react js and webpack" />
+    <MESSAGE value="react js added to paytype" />
+    <MESSAGE value="modified index.jsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified index.jsx" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1107">
-          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1063,13 +1064,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/orders_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/order.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -1158,14 +1152,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/orders/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/javascript/packs/pay_type.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
@@ -1176,10 +1163,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/javascript/PayTypeSelector/index.jsx">
+    <entry file="file://$PROJECT_DIR$/app/javascript/packs/pay_type.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/javascript/PayTypeSelector/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/javascript/PayTypeSelector/NoPayType.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/javascript/PayTypeSelector/CheckPayType.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/orders_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="101" column="4" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="4" />
         </state>
       </provider>
     </entry>
