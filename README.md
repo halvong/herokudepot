@@ -30,7 +30,7 @@ heroku logs --tail
     curl --silent https://immense-lowlands-87233.herokuapp.com/products/5/who_bought.atom
 21. gem 'webpacker', '~> 3.0'
     bundle install
-    rails webpacker:install
+    rails webpacker:install   #might not run in heroku
     rails webpacker:install:react
     
 #Heroku
