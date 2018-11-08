@@ -1,0 +1,57 @@
+21. [1/4] Resolving packages...
+    [2/4] Fetching packages...
+    info fsevents@1.2.4: The platform "linux" is incompatible with this module.
+    info "fsevents@1.2.4" is an optional dependency and failed compatibility check. Excluding it from installation.
+    [3/4] Linking dependencies...
+    warning "@rails/webpacker > postcss-cssnext@3.1.0" has unmet peer dependency "caniuse-lite@^1.0.30000697".
+    warning " > webpack-dev-server@2.11.2" has unmet peer dependency "webpack@^2.2.0 || ^3.0.0".
+    warning "webpack-dev-server > webpack-dev-middleware@1.12.2" has unmet peer dependency "webpack@^1.0.0 || ^2.0.0 || ^3.0.0".
+    [4/4] Building fresh packages...
+
+    warning Your current version of Yarn is out of date. The latest version is "1.12.1", while you're on "1.5.1".
+    info To upgrade, run the following command:
+    $ curl -o- -L https://yarnpkg.com/install.sh | bash
+    success Saved 4 new dependencies.
+    info Direct dependencies
+    ├─ babel-preset-react@6.24.1
+    ├─ prop-types@15.6.2
+    ├─ react-dom@16.6.0
+    └─ react@16.6.0
+    info All dependencies
+    ├─ babel-preset-react@6.24.1
+    ├─ prop-types@15.6.2
+    ├─ react-dom@16.6.0
+    └─ react@16.6.0
+    warning No license field
+    Done in 104.13s.
+    Webpacker now supports react.js 🎉
+
+
+18. rails db:migrate, heroku run rails db:migrate, p177
+    Running rails db:migrate on ⬢ immense-lowlands-87233... up, run.4080 (Free)
+    SELECT pg_try_advisory_lock(4640668184118030540)
+    SELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC
+    Migrating to CreateOrders (20181104030045)
+    BEGIN
+    == 20181104030045 CreateOrders: migrating =====================================
+    -- create_table(:orders)
+    CREATE TABLE "orders" ("id" bigserial primary key, "name" character varying, "address" text, "email" character varying, "pay_type" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)
+    CreateOrders: migrated (0.0345s) ============================
+    ActiveRecord::SchemaMigration Create (2.6ms)  INSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"  [["version", "20181104030045"]]
+    COMMIT
+    Migrating to AddOrderToLineItem (20181104030545)
+    BEGIN
+    == 20181104030545 AddOrderToLineItem: migrating ===============================
+    -- add_reference(:line_items, :order, {:foreign_key=>true})
+    ALTER TABLE "line_items" ADD "order_id" bigint
+    CREATE  INDEX  "index_line_items_on_order_id" ON "line_items"  ("order_id")
+    ALTER TABLE "line_items" ADD CONSTRAINT "fk_rails_2dc2e5c22c"
+    FOREIGN KEY ("order_id")
+      REFERENCES "orders" ("id")
+    == 20181104030545 AddOrderToLineItem: migrated (0.0321s) ======================
+    ActiveRecord::SchemaMigration Create (1.1ms)  INSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"  [["version", "20181104030545"]]
+    COMMIT
+    ActiveRecord::InternalMetadata Load (4.5ms)  SELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2  [["key", "environment"], ["LIMIT", 1]]
+    BEGIN
+    COMMIT
+    SELECT pg_advisory_unlock(4640668184118030540)

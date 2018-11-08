@@ -1,6 +1,6 @@
 Agile Rails 5.2.1, 
-11/01/2018, Thurs
-p170 
+11/03/2018, Sat
+p199 
 
 #database
 sudo systemctl start postgresql
@@ -21,8 +21,18 @@ heroku logs --tail
 12. rails generate migration combine_items_in_cart
 13. rails db:migrate - p135
 14. rails db:migrate:status  - p138
-
-
+15. rails g channel products
+16. rails generate scaffold Order name address:text email pay_type:integer
+17. rails generate migration add_order_to_line_item order:references, p175
+18. rails db:migrate, heroku run rails db:migrate
+19. rails dbconsole, p188
+20. curl --silent http://localhost:5000/products/3/who_bought.atom
+    curl --silent https://immense-lowlands-87233.herokuapp.com/products/5/who_bought.atom
+21. gem 'webpacker', '~> 3.0'
+    bundle install
+    rails webpacker:install   #might not run in heroku
+    rails webpacker:install:react
+    
 #Heroku
 1.  git init
     git add .
