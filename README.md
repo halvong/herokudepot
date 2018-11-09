@@ -34,8 +34,8 @@ heroku logs --tail
     rails webpacker:install   #might not run in heroku
     rails webpacker:install:react
 22. rails g mailer Order received shipped
-23.
-24.
+23. heroku addons | grep heroku-redis
+24. heroku restart
   
 #Heroku
 1.  git init
