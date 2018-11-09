@@ -2,11 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10a71f28-3af5-4f5b-b6f7-3cf68b455e1c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/admin.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/sessions.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/users.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/sessions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/users.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/admin_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/admin_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/users_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admin/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/sessions/create.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/sessions/destroy.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/sessions/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/users/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/users/_user.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/users/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/users/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/users/index.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/users/show.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20181109194147_create_users.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/herokudepot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/herokudepot.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environment.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environment.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <ignored path=".idea/dataSources/" />
     <ignored path=".idea/dataSources/a59d8365-04a7-4ef7-b7ec-15fa6c447442/storage_v2/_src_/database/" />
@@ -33,6 +61,45 @@
       <set />
     </option>
     <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Rails herokudepot: development" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Rails herokudepot: development" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Rails herokudepot: development" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="herokudepot: database" type="6d9b600a:PostgresImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Rails herokudepot: development" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="herokudepot: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Rails herokudepot: development" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="herokudepot: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Rails herokudepot: development" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="herokudepot: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="Rails herokudepot: production" type="feb32156:DbDataSourceImpl" />
@@ -95,23 +162,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Gemfile" value="4" />
+          <entry key="Gemfile" value="5" />
           <entry key="Procfile" value="2" />
           <entry key="builder" value="1" />
           <entry key="coffee" value="3" />
-          <entry key="erb" value="34" />
+          <entry key="erb" value="38" />
           <entry key="gitignore" value="4" />
           <entry key="html" value="2" />
           <entry key="json" value="1" />
           <entry key="jsx" value="6" />
           <entry key="line_items" value="1" />
           <entry key="log" value="3" />
-          <entry key="md" value="18" />
+          <entry key="md" value="19" />
           <entry key="products" value="1" />
-          <entry key="rb" value="60" />
+          <entry key="rb" value="64" />
           <entry key="ruby-version" value="1" />
           <entry key="scss" value="10" />
-          <entry key="sql" value="7" />
+          <entry key="sql" value="8" />
           <entry key="svg" value="1" />
           <entry key="txt" value="2" />
           <entry key="xml" value="2" />
@@ -125,33 +192,33 @@
           <entry key="HTML" value="2" />
           <entry key="JSON" value="1" />
           <entry key="JSX Harmony" value="6" />
-          <entry key="Markdown" value="18" />
+          <entry key="Markdown" value="19" />
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="RHTML" value="34" />
+          <entry key="RHTML" value="38" />
           <entry key="RXML" value="1" />
-          <entry key="Ruby" value="64" />
+          <entry key="Ruby" value="69" />
           <entry key="SCSS" value="10" />
           <entry key="SVG" value="1" />
-          <entry key="Scratch" value="7" />
+          <entry key="Scratch" value="8" />
           <entry key="XML" value="2" />
           <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Gemfile" value="174" />
+          <entry key="Gemfile" value="179" />
           <entry key="Procfile" value="4" />
           <entry key="coffee" value="39" />
-          <entry key="erb" value="1592" />
+          <entry key="erb" value="1641" />
           <entry key="gitignore" value="77" />
           <entry key="html" value="58" />
           <entry key="jsx" value="398" />
           <entry key="log" value="136" />
-          <entry key="md" value="2475" />
-          <entry key="rb" value="2100" />
+          <entry key="md" value="2637" />
+          <entry key="rb" value="2595" />
           <entry key="scss" value="33" />
-          <entry key="sql" value="119" />
-          <entry key="txt" value="495" />
+          <entry key="sql" value="163" />
+          <entry key="txt" value="543" />
           <entry key="yml" value="448" />
         </counts>
       </usages-collector>
@@ -161,12 +228,12 @@
           <entry key="HTML" value="58" />
           <entry key="JSX Harmony" value="398" />
           <entry key="Log" value="74" />
-          <entry key="Markdown" value="2475" />
-          <entry key="PLAIN_TEXT" value="638" />
-          <entry key="RHTML" value="1592" />
-          <entry key="Ruby" value="2274" />
+          <entry key="Markdown" value="2637" />
+          <entry key="PLAIN_TEXT" value="686" />
+          <entry key="RHTML" value="1641" />
+          <entry key="Ruby" value="2774" />
           <entry key="SCSS" value="33" />
-          <entry key="Scratch" value="119" />
+          <entry key="Scratch" value="163" />
           <entry key="YAML" value="448" />
         </counts>
       </usages-collector>
@@ -179,47 +246,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="226">
-                <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environment.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-86">
-              <caret line="59" column="3" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -245,15 +272,16 @@
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/db/migrate/20181028063741_create_products.rb" />
-        <option value="$PROJECT_DIR$/app/views/products/_form.html.erb" />
-        <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/store.scss" />
         <option value="$PROJECT_DIR$/app/controllers/concerns/current_cart.rb" />
@@ -282,7 +310,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/views/carts/_cart.html.erb" />
         <option value="$PROJECT_DIR$/app/models/line_item.rb" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e4a08b57-e4f0-412b-aa10-1569de75953d/console.sql" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/a59d8365-04a7-4ef7-b7ec-15fa6c447442/console.sql" />
         <option value="$PROJECT_DIR$/notes.txt" />
@@ -294,11 +321,18 @@
         <option value="$PROJECT_DIR$/app/controllers/orders_controller.rb" />
         <option value="$PROJECT_DIR$/app/mailers/order_mailer.rb" />
         <option value="$PROJECT_DIR$/app/views/order_mailer/shipped.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/config/environment.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/users/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e4a08b57-e4f0-412b-aa10-1569de75953d/console.sql" />
+        <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/admin/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/admin_controller.rb" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -368,18 +402,12 @@
             <path>
               <item name="herokudepot" type="b2602c69:ProjectViewProjectNode" />
               <item name="herokudepot" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="herokudepot" type="b2602c69:ProjectViewProjectNode" />
               <item name="herokudepot" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="herokudepot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="herokudepot" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="environments" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="herokudepot" type="b2602c69:ProjectViewProjectNode" />
@@ -407,11 +435,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/users" />
       <recent name="$PROJECT_DIR$/app/views/line_items" />
       <recent name="$PROJECT_DIR$/app/javascript/PayTypeSelector" />
       <recent name="$PROJECT_DIR$/app/javascript" />
       <recent name="$PROJECT_DIR$/app/javascript/packs" />
-      <recent name="$PROJECT_DIR$/config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -588,7 +616,7 @@
       <workItem from="1541638848150" duration="348000" />
       <workItem from="1541641524536" duration="2858000" />
       <workItem from="1541645112231" duration="130000" />
-      <workItem from="1541782924192" duration="5488000" />
+      <workItem from="1541782924192" duration="5773000" />
     </task>
     <task id="LOCAL-00001" summary="add rows &amp; cols on product form">
       <created>1540784581827</created>
@@ -744,11 +772,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541789533787</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Add email config in environment/production.rb">
+      <created>1541791262508</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1541791262508</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47914000" />
+    <option name="totallyTimeSpent" value="49355000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -774,11 +809,11 @@
       <window_info anchor="bottom" id="TODO" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" sideWeight="0.49732906" weight="0.32916668" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.62286323" weight="0.27916667" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.13034189" side_tool="true" visible="true" weight="0.4375" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.62232906" visible="true" weight="0.27916667" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.13087606" side_tool="true" weight="0.4375" />
       <window_info anchor="bottom" id="Database Console" order="11" sideWeight="0.713141" weight="0.32916668" />
       <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="13" sideWeight="0.8696581" visible="true" weight="0.4375" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.86912394" weight="0.4375" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -839,63 +874,10 @@
     <MESSAGE value="modified index.jsx" />
     <MESSAGE value="email function gmail" />
     <MESSAGE value="add Redis Gem" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Redis Gem" />
+    <MESSAGE value="Add email config in environment/production.rb" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add email config in environment/production.rb" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/log/development.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="102">
-          <caret line="1317" column="35" selection-start-line="1317" selection-start-column="35" selection-end-line="1317" selection-end-column="35" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="1340" selection-start-line="1340" selection-end-line="1340" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/carts/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/carts_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/cart.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/carts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/carts/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/store_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/line_items.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-153" />
@@ -1036,13 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e4a08b57-e4f0-412b-aa10-1569de75953d/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a59d8365-04a7-4ef7-b7ec-15fa6c447442/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1123,13 +1098,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/order_mailer/received.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/order_mailer/received.html.erb" />
     <entry file="file://$PROJECT_DIR$/app/views/order_mailer/shipped.html.erb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1140,13 +1109,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/mailers/order_mailer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -1154,34 +1116,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="226">
-            <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="130">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="59" column="3" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
+        <state relative-caret-position="163">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e4a08b57-e4f0-412b-aa10-1569de75953d/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="30" column="98" selection-start-line="30" selection-start-column="98" selection-end-line="30" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="81">
+            <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
