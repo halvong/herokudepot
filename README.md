@@ -1,6 +1,7 @@
 Agile Rails 5.2.1, 
-11/03/2018, Sat
-p199 
+11/07/2018, Wed
+p218 
+Configuring Emails
 
 #database
 sudo systemctl start postgresql
@@ -32,7 +33,10 @@ heroku logs --tail
     bundle install
     rails webpacker:install   #might not run in heroku
     rails webpacker:install:react
-    
+22. rails g mailer Order received shipped
+23. heroku addons | grep heroku-redis
+24. heroku restart
+  
 #Heroku
 1.  git init
     git add .
