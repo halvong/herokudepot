@@ -7,6 +7,14 @@
 # Visit http://www.pragmaticprogrammer.com/titles/rails51 for more book information.
 #---
 Rails.application.routes.draw do
+  get 'admin' => 'admin#index'
+
+  controller :sessions do
+    get 'login' => :new
+    post 'login' => :create
+    delete 'logout' => :destroy
+  end
+
   get 'admin/index'
   get 'sessions/new'
   get 'sessions/create'
