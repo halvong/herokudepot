@@ -3,10 +3,9 @@ Agile Rails 5.2.1,
 p243 
 Authenthicating user
 
-#user
-1. Hal Vong
-    123:123
-    
+#user in dev and prod
+1. u: Hal Vong
+   p: 12
 #database
 sudo systemctl start postgresql
 #misc
@@ -41,7 +40,7 @@ heroku logs --tail
 23. heroku addons | grep heroku-redis
 24. heroku restart
 25. rails g scaffold User name:string password:digest - pg 235
-26. rails db:migrate
+26. rails db:migrate. heroku run rails db:migrate
 27. bundle install
 28. rails generate controller Sessions new create destroy
 29. rails generate controller Admin index
